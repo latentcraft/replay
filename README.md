@@ -2,7 +2,7 @@
 <h3 align="center"><a href="https://arxiv.org/abs/2511.19972" style="color:#9C276A">
 Boosting Reasoning in Large Multimodal Models via Activation Replay</a></h3>
 
-<h5 align="center"> We will release the code soon. Please stay tuned if you are interested. 🙏🙏 </h2>
+<h5 align="center"> If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏 </h2>
 
 <h5 align="center">
 
