@@ -1,0 +1,53 @@
+[project]
+name = "video-r1"
+version = "0.1.0"
+description = "Environment setup for Video-R1"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "accelerate==1.4.0",
+  "av==14.1.0",
+  "bitsandbytes==0.42.0",
+  "datasets==3.3.1",
+  "decord==0.6.0",
+  "deepspeed==0.15.4",
+  "einops==0.8.1",
+  "fastapi==0.115.8",
+  "filelock==3.17.0",
+  "fsspec==2024.6.1",
+  "huggingface-hub==0.28.1",
+  "imageio==2.37.0",
+  "liger_kernel==0.5.2",
+  "lm-format-enforcer==0.10.10",
+  "numpy==1.26.4",
+  "opencv-python-headless==4.11.0.86",
+  "openai==1.63.2",
+  "outlines==0.1.11",
+  "outlines_core==0.1.26",
+  "packaging==24.1",
+  "pandas==2.2.3",
+  "peft==0.14.0",
+  "pillow==11.1.0",
+  "pyarrow==19.0.1",
+  "pydantic==2.10.6",
+  "pydantic_core==2.27.2",
+  "python-multipart==0.0.20",
+  "pyyaml==6.0.2",
+  "qwen-vl-utils",
+  "regex==2024.7.24",
+  "requests==2.32.3",
+  "scipy==1.15.2",
+  "sentencepiece==0.2.0",
+  "tiktoken==0.7.0",
+  "timm==1.0.15",
+  "torch==2.5.1",
+  "tqdm==4.66.5",
+  "transformers==4.50.0",
+  "trl==0.15.1",
+  "uvicorn==0.34.0",
+  "wandb==0.17.7",
+  "xformers==0.0.28.post3",
+  "xgrammar==0.1.14",
+]
+
+[tool.uv]
+package = false

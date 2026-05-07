@@ -1,0 +1,82 @@
+# Core Deep Learning Framework
+torch==2.5.1
+transformers==4.50.0
+accelerate==1.4.0
+
+# Training and Fine-tuning
+peft==0.14.0
+trl==0.15.1
+datasets==3.3.1
+bitsandbytes==0.42.0
+deepspeed==0.15.4
+
+# Model Optimization and Inference
+xformers==0.0.28.post3
+# flash_attn==2.5.9.post1
+liger_kernel==0.5.2
+
+# Web Services
+fastapi==0.115.8
+uvicorn==0.34.0
+python-multipart==0.0.20
+
+# Text Processing
+tiktoken==0.7.0
+sentencepiece==0.2.0
+
+# Data Processing
+numpy==1.26.4
+pandas==2.2.3
+pillow==11.1.0
+
+# Audio/Video Processing
+av==14.1.0
+
+# Utilities
+PyYAML==6.0.2
+einops==0.8.1
+
+# Monitoring (optional)
+wandb==0.17.7
+
+# Cloud APIs (optional)
+openai==1.63.2
+
+# Specialized Libraries
+timm==1.0.15
+
+# Text Processing and NLP
+tiktoken==0.7.0
+sentencepiece==0.2.0
+regex==2024.7.24
+lm-format-enforcer==0.10.10
+outlines==0.1.11
+outlines_core==0.1.26
+xgrammar==0.1.14
+
+# Data Processing and Utilities
+numpy==1.26.4
+pandas==2.2.3
+pillow==11.1.0
+opencv-python-headless==4.11.0.86
+pyarrow==19.0.1
+scipy==1.15.2
+
+# Utility Libraries
+tqdm==4.66.5
+requests==2.32.3
+pydantic==2.10.6
+pydantic_core==2.27.2
+PyYAML==6.0.2
+packaging==24.1
+filelock==3.17.0
+fsspec==2024.6.1
+huggingface-hub==0.28.1
+
+# Audio/Video Processing
+av==14.1.0
+decord==0.6.0
+imageio==2.37.0
+
+qwen-vl-utils
+timm

@@ -1,0 +1,7 @@
+mkdir -p ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/hr8k
+mkdir -p ../logs/DeepEyes/replay_iv_DeepEyes-7B
+
+HIP_VISIBLE_DEVICES=0 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_hr8k.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/hr8k --chunk_idx 0 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/hr8k_gpu_0.log 2>&1 &
+HIP_VISIBLE_DEVICES=1 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_hr8k.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/hr8k --chunk_idx 1 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/hr8k_gpu_1.log 2>&1 &
+HIP_VISIBLE_DEVICES=2 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_hr8k.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/hr8k --chunk_idx 2 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/hr8k_gpu_2.log 2>&1 &
+HIP_VISIBLE_DEVICES=3 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_hr8k.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/hr8k --chunk_idx 3 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/hr8k_gpu_3.log 2>&1 &

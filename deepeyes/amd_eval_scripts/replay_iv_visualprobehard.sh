@@ -1,0 +1,7 @@
+mkdir -p ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/visualprobehard
+mkdir -p ../logs/DeepEyes/replay_iv_DeepEyes-7B
+
+HIP_VISIBLE_DEVICES=4 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_visualprobehard.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/visualprobehard --chunk_idx 0 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/visualprobehard_gpu_0.log 2>&1 &
+HIP_VISIBLE_DEVICES=5 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_visualprobehard.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/visualprobehard --chunk_idx 1 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/visualprobehard_gpu_1.log 2>&1 &
+HIP_VISIBLE_DEVICES=6 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_visualprobehard.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/visualprobehard --chunk_idx 2 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/visualprobehard_gpu_2.log 2>&1 &
+HIP_VISIBLE_DEVICES=7 nohup /z_data/conda_envs/xy_repl_deepeyes/bin/python replay_eval/eval_visualprobehard.py --model-path ../model/DeepEyes-7B --output-prefix ../mirror/DeepEyes/outputs/replay_iv_DeepEyes-7B/visualprobehard --chunk_idx 3 > ../logs/DeepEyes/replay_iv_DeepEyes-7B/visualprobehard_gpu_3.log 2>&1 &
